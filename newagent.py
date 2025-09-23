@@ -57,4 +57,9 @@ try:
 except FileNotFoundError:
     print(f"\nError: The file '{filename}' was not found. Make sure it's in the same folder.")
 except Exception as e:
+
     print(f"\nAn unexpected error occurred: {e}")
+
+finally:
+    print(f"Succeed")
+    
