@@ -10,7 +10,7 @@ try:
     
     print("\nI am ready, Type 'done' to save and exit.")
     
-    while True: #This mans it will run until the user types 'done'
+    while True:
         user_action = input("What kind of data settlement do you want? (double/increase/add/sort/search/pricing/done): ").lower()
 
         if user_action == "done":
@@ -155,4 +155,5 @@ except Exception as e:
     print(f"\nAn unexpected error occurred: {e}")
 
 finally:
+
     print(f"Succeed!!!")
